@@ -4,29 +4,29 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ca04de0278d1c3179fbcc58c51ff4ef0",
+    "content-hash": "2cd83a963e8e053cc59ea1b5b46137bc",
     "packages": [
         {
             "name": "atk4/core",
-            "version": "1.3.4",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/atk4/core.git",
-                "reference": "db5e20747cd0df9c71d0cf5969941f2dc21f7d6f"
+                "reference": "00d1d33f62105292fe36b5bc0175b429154ec165"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/atk4/core/zipball/db5e20747cd0df9c71d0cf5969941f2dc21f7d6f",
-                "reference": "db5e20747cd0df9c71d0cf5969941f2dc21f7d6f",
+                "url": "https://api.github.com/repos/atk4/core/zipball/00d1d33f62105292fe36b5bc0175b429154ec165",
+                "reference": "00d1d33f62105292fe36b5bc0175b429154ec165",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5.0"
+                "php": ">=5.5.0",
+                "psr/log": "~1.0"
             },
             "require-dev": {
                 "codeclimate/php-test-reporter": "*",
-                "phpunit/phpunit": "~4.0",
-                "psr/log": "~1.0",
+                "phpunit/phpunit": "~5.0",
                 "satooshi/php-coveralls": "^1.0"
             },
             "type": "library",
@@ -54,29 +54,29 @@
                 "php",
                 "trains"
             ],
-            "time": "2017-12-03T12:41:35+00:00"
+            "time": "2018-04-19T17:56:07+00:00"
         },
         {
             "name": "atk4/data",
-            "version": "1.2.3",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/atk4/data.git",
-                "reference": "e1efb5066f1351f52126d6da69ffc3e4a124e4cb"
+                "reference": "5f85db066a40a5739cf3772b47e0631638651f85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/atk4/data/zipball/e1efb5066f1351f52126d6da69ffc3e4a124e4cb",
-                "reference": "e1efb5066f1351f52126d6da69ffc3e4a124e4cb",
+                "url": "https://api.github.com/repos/atk4/data/zipball/5f85db066a40a5739cf3772b47e0631638651f85",
+                "reference": "5f85db066a40a5739cf3772b47e0631638651f85",
                 "shasum": ""
             },
             "require": {
-                "atk4/core": "^1.3",
-                "atk4/dsql": "^1.1",
+                "atk4/core": "dev-develop",
+                "atk4/dsql": "dev-develop",
                 "php": ">=5.6.0"
             },
             "require-dev": {
-                "atk4/schema": "*",
+                "atk4/schema": "dev-develop",
                 "codeclimate/php-test-reporter": "*",
                 "phpunit/phpunit": "<6"
             },
@@ -111,24 +111,24 @@
                 "query",
                 "sql"
             ],
-            "time": "2018-01-02T10:36:24+00:00"
+            "time": "2018-05-15T14:21:38+00:00"
         },
         {
             "name": "atk4/dsql",
-            "version": "1.1.5",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/atk4/dsql.git",
-                "reference": "20e1c4ab4e94a0bdf5bc72cbb281a5b1d3443716"
+                "reference": "cbf9fa5ceccb282fce97046f23f4c1884311ab43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/atk4/dsql/zipball/20e1c4ab4e94a0bdf5bc72cbb281a5b1d3443716",
-                "reference": "20e1c4ab4e94a0bdf5bc72cbb281a5b1d3443716",
+                "url": "https://api.github.com/repos/atk4/dsql/zipball/cbf9fa5ceccb282fce97046f23f4c1884311ab43",
+                "reference": "cbf9fa5ceccb282fce97046f23f4c1884311ab43",
                 "shasum": ""
             },
             "require": {
-                "atk4/core": "^1.3",
+                "atk4/core": "dev-develop",
                 "php": ">=5.6.0"
             },
             "require-dev": {
@@ -165,25 +165,80 @@
                 "orm",
                 "sql"
             ],
-            "time": "2017-09-12T11:29:31+00:00"
+            "time": "2018-05-14T09:43:38+00:00"
         },
         {
-            "name": "atk4/ui",
-            "version": "1.3.2",
+            "name": "atk4/filestore",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/atk4/ui.git",
-                "reference": "aaf6c80894779902ed9397ba1ecc8edd6e097be4"
+                "url": "https://github.com/atk4/filestore.git",
+                "reference": "a3db99c93e14c6a6a3f8ff7f317690c4f10d1478"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/atk4/ui/zipball/aaf6c80894779902ed9397ba1ecc8edd6e097be4",
-                "reference": "aaf6c80894779902ed9397ba1ecc8edd6e097be4",
+                "url": "https://api.github.com/repos/atk4/filestore/zipball/a3db99c93e14c6a6a3f8ff7f317690c4f10d1478",
+                "reference": "a3db99c93e14c6a6a3f8ff7f317690c4f10d1478",
                 "shasum": ""
             },
             "require": {
-                "atk4/core": "^1.3",
-                "atk4/data": "^1.2",
+                "atk4/ui": "*, dev-develop",
+                "league/flysystem": "^1.0",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "*",
+                "phpunit/phpunit": "<6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "atk4\\filestore\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Romans Malinovskis",
+                    "email": "romans@agiletoolkit.org",
+                    "homepage": "https://nearly.guru/"
+                }
+            ],
+            "description": "Integration between ATK UI Form Upload Field and PHP Flysystem",
+            "homepage": "https://github.com/atk4/filestore",
+            "keywords": [
+                "Agile",
+                "Flysystem",
+                "agile ui",
+                "atk4",
+                "data",
+                "filestore",
+                "framework",
+                "image",
+                "upload"
+            ],
+            "time": "2018-04-01T14:52:45+00:00"
+        },
+        {
+            "name": "atk4/ui",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/atk4/ui.git",
+                "reference": "fbc4093b81bd7ad7074bd910795668d5a60d40a6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/atk4/ui/zipball/fbc4093b81bd7ad7074bd910795668d5a60d40a6",
+                "reference": "fbc4093b81bd7ad7074bd910795668d5a60d40a6",
+                "shasum": ""
+            },
+            "require": {
+                "atk4/core": "dev-develop",
+                "atk4/data": "dev-develop",
                 "php": ">=5.6.0"
             },
             "require-dev": {
@@ -227,33 +282,98 @@
                 "web",
                 "widget"
             ],
-            "time": "2017-12-03T22:03:53+00:00"
+            "time": "2018-06-12T10:53:00+00:00"
         },
         {
-            "name": "twilio/sdk",
-            "version": "5.16.2",
+            "name": "h4cc/wkhtmltopdf-i386",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/twilio/twilio-php.git",
-                "reference": "24b6830fa3157cb7e11108ee74eb678e83147593"
+                "url": "https://github.com/h4cc/wkhtmltopdf-i386.git",
+                "reference": "da14486ec8eba1873b026b56126ed02d2f2ae5e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twilio/twilio-php/zipball/24b6830fa3157cb7e11108ee74eb678e83147593",
-                "reference": "24b6830fa3157cb7e11108ee74eb678e83147593",
+                "url": "https://api.github.com/repos/h4cc/wkhtmltopdf-i386/zipball/da14486ec8eba1873b026b56126ed02d2f2ae5e3",
+                "reference": "da14486ec8eba1873b026b56126ed02d2f2ae5e3",
+                "shasum": ""
+            },
+            "bin": [
+                "bin/wkhtmltopdf-i386"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL Version 3"
+            ],
+            "authors": [
+                {
+                    "name": "Julius Beckmann",
+                    "email": "github@h4cc.de"
+                }
+            ],
+            "description": "Convert html to pdf using webkit (qtwebkit). Static linked linux binary for i386 systems.",
+            "homepage": "http://wkhtmltopdf.org/",
+            "keywords": [
+                "binary",
+                "convert",
+                "pdf",
+                "snapshot",
+                "thumbnail",
+                "wkhtmltopdf"
+            ],
+            "time": "2018-01-15T07:18:15+00:00"
+        },
+        {
+            "name": "league/flysystem",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/flysystem.git",
+                "reference": "b74cabbe961552e958d42e291800ac578d2c2982"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/b74cabbe961552e958d42e291800ac578d2c2982",
+                "reference": "b74cabbe961552e958d42e291800ac578d2c2982",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": ">=5.5.9"
+            },
+            "conflict": {
+                "league/flysystem-sftp": "<1.0.6"
             },
             "require-dev": {
-                "apigen/apigen": "^4.1",
-                "phpunit/phpunit": "4.5.*"
+                "ext-fileinfo": "*",
+                "phpspec/phpspec": "^3.4",
+                "phpunit/phpunit": "^5.7"
+            },
+            "suggest": {
+                "ext-fileinfo": "Required for MimeType",
+                "ext-ftp": "Allows you to use FTP server storage",
+                "ext-openssl": "Allows you to use FTPS server storage",
+                "league/flysystem-aws-s3-v2": "Allows you to use S3 storage with AWS SDK v2",
+                "league/flysystem-aws-s3-v3": "Allows you to use S3 storage with AWS SDK v3",
+                "league/flysystem-azure": "Allows you to use Windows Azure Blob storage",
+                "league/flysystem-cached-adapter": "Flysystem adapter decorator for metadata caching",
+                "league/flysystem-eventable-filesystem": "Allows you to use EventableFilesystem",
+                "league/flysystem-rackspace": "Allows you to use Rackspace Cloud Files",
+                "league/flysystem-sftp": "Allows you to use SFTP server storage via phpseclib",
+                "league/flysystem-webdav": "Allows you to use WebDAV storage",
+                "league/flysystem-ziparchive": "Allows you to use ZipArchive adapter",
+                "spatie/flysystem-dropbox": "Allows you to use Dropbox storage",
+                "srmklive/flysystem-dropbox-v2": "Allows you to use Dropbox storage for PHP 5 applications"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
-                    "Twilio\\": "Twilio/"
+                    "League\\Flysystem\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -262,26 +382,91 @@
             ],
             "authors": [
                 {
-                    "name": "Twilio API Team",
-                    "email": "api@twilio.com"
+                    "name": "Frank de Jonge",
+                    "email": "info@frenky.net"
                 }
             ],
-            "description": "A PHP wrapper for Twilio's API",
-            "homepage": "http://github.com/twilio/twilio-php",
+            "description": "Filesystem abstraction: Many filesystems, one API.",
             "keywords": [
-                "api",
-                "sms",
-                "twilio"
+                "Cloud Files",
+                "WebDAV",
+                "abstraction",
+                "aws",
+                "cloud",
+                "copy.com",
+                "dropbox",
+                "file systems",
+                "files",
+                "filesystem",
+                "filesystems",
+                "ftp",
+                "rackspace",
+                "remote",
+                "s3",
+                "sftp",
+                "storage"
             ],
-            "time": "2017-12-16T01:07:41+00:00"
+            "time": "2018-06-07T07:38:08+00:00"
+        },
+        {
+            "name": "psr/log",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "3490ba5925e6dcbe6de950c5c6b8dce9f6e96eda"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/3490ba5925e6dcbe6de950c5c6b8dce9f6e96eda",
+                "reference": "3490ba5925e6dcbe6de950c5c6b8dce9f6e96eda",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2018-04-03T15:59:15+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "atk4/ui": 20,
+        "atk4/filestore": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "ext-gd": "*"
+    },
     "platform-dev": []
 }
