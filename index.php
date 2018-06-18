@@ -8,7 +8,7 @@ $form = $app->add(["Form"]);
 $form->addField(["ans","caption"=>"Ответ: "]);
 $form->onSubmit(function($form) {
   If ($form->model["ans"] == "лодка") {
-    return $form->success('Самое популярное число в моих снапах')
+    return $form->success('Самое популярное число в моих снапах');
   } else {
      return $form->error('ans','Неверно');
   }
