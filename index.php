@@ -5,6 +5,7 @@ $app->initLayout('Centered');
 $app->layout->template->del('Header');
 $app->layout->add(['Image',"https://img-fotki.yandex.ru/get/4914/110106211.d/0_142c6a_8ad8f2e7_orig",'big centered'],'Header');
 $form = $app->add(["Form"]);
+$form->buttonSave->set('Погнали!!!');
 $form->addField("ans",["caption"=>"Ответ: "]);
 $form->onSubmit(function($form) {
   If ($form->model["ans"] == "лодка") {
